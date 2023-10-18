@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'young-serif';
+    src: url(./YoungSerif-Regular.ttf);
+}
+
+header{
+    width: 1000px;
+    background-image: url('./bmw\ header.webp');
+    display: grid;
+    justify-content: start;
+}
+nav a{
+    list-style-type:none;
+    color: white;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+}
+nav {
+    margin-left: 165px;
+    padding-top: 10px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: bold;
+}
+span{
+    float: right;
+    background: none;
+    cursor: progress;
+    font-size: 13px;
+    color: white;
+    margin-right: 20px;
+}
+.icons-nav{
+    margin-left: 355px;
+    display: flex;
+    justify-content: right;
+}
+.logo{
+    background: none;
+    width: 50px;
+    margin-top: -22px;
+}
+hr{
+    margin: 0;
+    margin-right: 67px;
+}
+.ofertas{
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    height: 103px;
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 240px;
+}
+.btn.btn-primary{
+    color: white;
+    background-color: blue;
+    width: 127px;
+    height: 25px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.ofertas h3{
+    margin-top:-10px;
+}
